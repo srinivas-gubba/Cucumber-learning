@@ -1,17 +1,17 @@
 package parallel;
 
-//import org.junit.runner.RunWith;
+import org.junit.runner.RunWith;
 import org.testng.annotations.DataProvider;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 
-//@RunWith(Cucumber.class)
+@RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src\\test\\resources\\parallel\\AccountPage.feature"},
-		//C:\Users\srini\eclipse-workspace\EcommCucum\src\test\resources\ContactUs.feature//{"src/test/resources/parallel/ContactUs.feature"}
-		glue = {"parallel"},
+		features = {"src/test/resources/parallel/AccountPage.feature"},
+		
+		glue = {"step"},
 		//tags = "@Smoke",
 		plugin = {"pretty",
 				  "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",				

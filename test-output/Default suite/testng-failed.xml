@@ -6,8 +6,8 @@
       <class name="parallel.TestNGParallelRun">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="7"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="7"/>
         </methods>
       </class> <!-- parallel.TestNGParallelRun -->
     </classes>
